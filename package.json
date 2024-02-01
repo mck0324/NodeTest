@@ -7,19 +7,15 @@
     "test": "test"
   },
   "scripts": {
-    "test": "node --test test/**/*.test.js",
-    "start": "fastify start -l info index.js",
-    "dev": "fastify start -w -l info -P index.js"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "fastify": "^4.0.0",
-    "fastify-plugin": "^4.0.0",
-    "@fastify/autoload": "^5.0.0",
-    "@fastify/sensible": "^5.0.0",
-    "fastify-cli": "^6.1.0"
+    "timers": "^0.1.1"
   },
   "devDependencies": {}
 }
